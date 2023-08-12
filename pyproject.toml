@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61", "wheel", "cython", "mebuex"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shgofast"
+version = "1.0.0"
+authors = [
+    {name = "Malte J. Ziebarth", email = "mjz.science@fmvkb.de"},
+]
+description = "Monkey-patched acceleration for the SHGO optimizer."
+dependencies = [
+    "numpy"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Cython",
+    "Programming Language :: C++",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Scientific/Engineering :: Mathematics"
+]
+readme = "README.md"
+license = {file="LICENSE"}
+
+[project.urls]
+"Homepage" = "https://github.com/mjziebarth/shgofast"
+"Bug Tracker" = "https://github.com/mjziebarth/shgofast/issues"
+
+[tool.setuptools]
+packages = ["shgofast"]
