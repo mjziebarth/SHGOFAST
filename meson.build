@@ -10,8 +10,7 @@ python = import('python').find_installation()
 dep_py = python.dependency()
 
 incpath_np = run_command(
-  python,
-  ['-c', 'import os; import numpy; print(numpy.get_include())'],
+  'gravelspoon',
   check : true
 ).stdout().strip()
 incdir_np = include_directories(incpath_np)

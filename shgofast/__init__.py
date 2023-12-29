@@ -3,6 +3,7 @@
 # Copyright (C) 2023 Malte J. Ziebarth
 #
 # This code is licensed under the MIT license (see LICENSE).
+# SPDX-License-Identifier: MIT
 
 from .vertex import VertexScalarField as VSF, proc_minimisers, VertexCacheBase,\
                     vpool #, split_edge

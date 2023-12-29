@@ -5,6 +5,7 @@
 # Copyright (C) 2023 Malte J. Ziebarth
 #
 # This code is licensed under the MIT license (see LICENSE).
+# SPDX-License-Identifier: MIT
 
 
 from setuptools import setup

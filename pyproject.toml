@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools>=61", "wheel", "cython", "mebuex"]
+requires = ["setuptools>=61", "wheel", "cython", "mebuex>=1.2.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "shgofast"
-version = "1.0.0"
+version = "0.1.0"
 authors = [
     {name = "Malte J. Ziebarth", email = "mjz.science@fmvkb.de"},
 ]
