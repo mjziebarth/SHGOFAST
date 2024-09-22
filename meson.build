@@ -1,4 +1,4 @@
-project('SHGOFAST','cpp','cython', version : '1.0.0',
+project('SHGOFAST','cpp','cython', version : '0.1.3',
         default_options : ['optimization=3',
                            'cpp_std=c++20','build.cpp_std=c++20'])
 

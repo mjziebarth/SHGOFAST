@@ -34,6 +34,9 @@ in which `shgo` was not limited by the function but foremost by the
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+### [0.1.3] - 2024-09-22
+- Add missing NumPy dependency to build environment.
+
 ### [0.1.2] - 2023-12-29
 - Add missing `shgofast/vertex.pyx` to `MANIFEST.in`.
 
